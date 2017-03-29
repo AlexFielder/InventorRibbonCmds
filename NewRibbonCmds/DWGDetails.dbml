@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DWGDetails" Class="DWGDetailsDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=BAS047;Initial Catalog=DWGDetails;Integrated Security=True" SettingsObjectName="NewRibbonCmds.My.MySettings" SettingsPropertyName="DWGDetailsConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.DETAILS" Member="DETAILs">
+    <Type Name="DETAIL">
+      <Column Name="[INDEX]" Member="INDEX" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Certified1" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="CHECKED" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Checked1" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[DIMS IN]" Member="DIMS_IN" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[Dims In1]" Member="Dims_In1" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[DRAWING NUMBER 1]" Member="DRAWING_NUMBER_1" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[DRAWING NUMBER 2]" Member="DRAWING_NUMBER_2" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[Drawing Number]" Member="Drawing_Number" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="DRAWN" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Drawn1" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[SHEET NUMBER 1]" Member="SHEET_NUMBER_1" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[SHEET NUMBER 2]" Member="SHEET_NUMBER_2" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[SHEET NUMBER 3]" Member="SHEET_NUMBER_3" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[SHEET NUMBER 4]" Member="SHEET_NUMBER_4" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[Sheet Number]" Member="Sheet_Number" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[NUMBER OF SHEETS 1]" Member="NUMBER_OF_SHEETS_1" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[NUMBER OF SHEETS 2]" Member="NUMBER_OF_SHEETS_2" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[NUMBER OF SHEETS 3]" Member="NUMBER_OF_SHEETS_3" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[NUMBER OF SHEETS 4]" Member="NUMBER_OF_SHEETS_4" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[Number of sheets]" Member="Number_of_sheets" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[PROTECTIVE FINISH]" Member="PROTECTIVE_FINISH" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[Protective Finish1]" Member="Protective_Finish1" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[PROTECTIVE MARKING 1]" Member="PROTECTIVE_MARKING_1" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[PROTECTIVE MARKING 2]" Member="PROTECTIVE_MARKING_2" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[Protective Marking 3]" Member="Protective_Marking_3" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[Protective Marking 4]" Member="Protective_Marking_4" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[CHANGE NO 1]" Member="CHANGE_NO_1" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[ISSUE 1]" Member="ISSUE_1" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[DATE 1]" Member="DATE_1" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[CHANGE NO 2]" Member="CHANGE_NO_2" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[ISSUE 2]" Member="ISSUE_2" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[DATE 2]" Member="DATE_2" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[CHANGE NO 3]" Member="CHANGE_NO_3" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[ISSUE 3]" Member="ISSUE_3" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[DATE 3]" Member="DATE_3" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[CHANGE NO 4]" Member="CHANGE_NO_4" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[ISSUE 4]" Member="ISSUE_4" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[DATE 4]" Member="DATE_4" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[CHANGE NO 5]" Member="CHANGE_NO_5" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[ISSUE 5]" Member="ISSUE_5" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[DATE 5]" Member="DATE_5" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[CHANGE NO 6]" Member="CHANGE_NO_6" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[ISSUE 6]" Member="ISSUE_6" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[DATE 6]" Member="DATE_6" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[CHANGE NO 7]" Member="CHANGE_NO_7" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[ISSUE 7]" Member="ISSUE_7" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[DATE 7]" Member="DATE_7" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[CHANGE NO 8]" Member="CHANGE_NO_8" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[ISSUE 8]" Member="ISSUE_8" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[DATE 8]" Member="DATE_8" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[CHANGE NO 9]" Member="CHANGE_NO_9" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[ISSUE 9]" Member="ISSUE_9" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[DATE 9]" Member="DATE_9" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[CHANGE NO 10]" Member="CHANGE_NO_10" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[ISSUE 10]" Member="ISSUE_10" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[DATE 10]" Member="DATE_10" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[CHANGE NO 11]" Member="CHANGE_NO_11" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[ISSUE 11]" Member="ISSUE_11" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[DATE 11]" Member="DATE_11" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[CHANGE NO 12]" Member="CHANGE_NO_12" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[ISSUE 12]" Member="ISSUE_12" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[DATE 12]" Member="DATE_12" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[CHANGE NO 13]" Member="CHANGE_NO_13" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[ISSUE 13]" Member="ISSUE_13" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[DATE 13]" Member="DATE_13" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[CHANGE NO 14]" Member="CHANGE_NO_14" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[ISSUE 14]" Member="ISSUE_14" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[DATE 14]" Member="DATE_14" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[REV A Change]" Member="REV_A_Change" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[REV A DATE]" Member="REV_A_DATE" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[REV A]" Member="REV_A" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[REV B CHANGE]" Member="REV_B_CHANGE" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[REV B DATE]" Member="REV_B_DATE" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[REV B]" Member="REV_B" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[REV C CHANGE]" Member="REV_C_CHANGE" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[REV C DATE]" Member="REV_C_DATE" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[REV C]" Member="REV_C" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[REV D CHANGE]" Member="REV_D_CHANGE" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[REV D DATE]" Member="REV_D_DATE" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[REV D]" Member="REV_D" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[REV E CHANGE]" Member="REV_E_CHANGE" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[REV E DATE]" Member="REV_E_DATE" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[REV E]" Member="REV_E" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[REV F CHANGE]" Member="REV_F_CHANGE" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[REV F DATE]" Member="REV_F_DATE" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[REV F]" Member="REV_F" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[REV G CHANGE]" Member="REV_G_CHANGE" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[REV G DATE]" Member="REV_G_DATE" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[REV G]" Member="REV_G" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="SCALE" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Scale1" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[Sheet Title]" Member="Sheet_Title" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[TITLE 1]" Member="TITLE_1" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[TITLE 2]" Member="TITLE_2" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[TITLE 3]" Member="TITLE_3" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[SURFACE TEXTURE]" Member="SURFACE_TEXTURE" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[Surface Texture1]" Member="Surface_Texture1" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[SUB-CONTRACTOR]" Member="SUB_CONTRACTOR" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[TOLERANCE 1]" Member="TOLERANCE_1" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[TOLERANCE 2]" Member="TOLERANCE_2" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[TOLERANCE 3]" Member="TOLERANCE_3" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[Tolerance 4]" Member="Tolerance_4" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[Tolerance 5]" Member="Tolerance_5" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[Tolerance 6]" Member="Tolerance_6" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[CAD REF]" Member="CAD_REF" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="CERTIFIED" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[DRAWING OFFICE ID]" Member="DRAWING_OFFICE_ID" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[DRAWING OFFICE LOCATION]" Member="DRAWING_OFFICE_LOCATION" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[DRAWING OFFICE REF]" Member="DRAWING_OFFICE_REF" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[RESPONSIBLE AUTHORITY]" Member="RESPONSIBLE_AUTHORITY" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[BUILDING(S) COVERED 1]" Member="BUILDING_S__COVERED_1" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[BUILDING(S) COVERED 2]" Member="BUILDING_S__COVERED_2" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[BUILDING(S) COVERED 3]" Member="BUILDING_S__COVERED_3" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[BUILDING(S) COVERED 4]" Member="BUILDING_S__COVERED_4" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[BUILDING(S) COVERED 5]" Member="BUILDING_S__COVERED_5" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[BUILDING(S) COVERED 6]" Member="BUILDING_S__COVERED_6" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[BUILDING(S) COVERED 7]" Member="BUILDING_S__COVERED_7" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[BUILDING(S) COVERED 8]" Member="BUILDING_S__COVERED_8" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[SERVICE CODE 1]" Member="SERVICE_CODE_1" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[SERVICE CODE 2]" Member="SERVICE_CODE_2" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[SERVICE CODE 3]" Member="SERVICE_CODE_3" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[SERVICE CODE 4]" Member="SERVICE_CODE_4" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[SERVICE CODE 5]" Member="SERVICE_CODE_5" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[SERVICE CODE 6]" Member="SERVICE_CODE_6" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[SERVICE CODE 7]" Member="SERVICE_CODE_7" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[SERVICE CODE 8]" Member="SERVICE_CODE_8" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[SERVICE CODE(S) 1]" Member="SERVICE_CODE_S__1" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[SERVICE CODE(S) 2]" Member="SERVICE_CODE_S__2" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[SERVICE CODE(S) 3]" Member="SERVICE_CODE_S__3" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[SERVICE CODE(S) 4]" Member="SERVICE_CODE_S__4" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[SERVICE CODE(S) 5]" Member="SERVICE_CODE_S__5" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[SERVICE CODE(S) 6]" Member="SERVICE_CODE_S__6" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[SERVICE CODE(S) 7]" Member="SERVICE_CODE_S__7" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[SERVICE CODE(S) 8]" Member="SERVICE_CODE_S__8" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[TEMPORY CAD REF]" Member="TEMPORY_CAD_REF" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 01 - DRG NUMBER]" Member="USED_ON_01___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 01 - PREFIX]" Member="USED_ON_01___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 02 - DRG NUMBER]" Member="USED_ON_02___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 02 - PREFIX]" Member="USED_ON_02___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 03 - DRG NUMBER]" Member="USED_ON_03___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 03 - PREFIX]" Member="USED_ON_03___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 04 - DRG NUMBER]" Member="USED_ON_04___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 04 - PREFIX]" Member="USED_ON_04___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 05 - DRG NUMBER]" Member="USED_ON_05___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 05 - PREFIX]" Member="USED_ON_05___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 06 - DRG NUMBER]" Member="USED_ON_06___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 06 - PREFIX]" Member="USED_ON_06___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 07 - DRG NUMBER]" Member="USED_ON_07___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 07 - PREFIX]" Member="USED_ON_07___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 08 - DRG NUMBER]" Member="USED_ON_08___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 08 - PREFIX]" Member="USED_ON_08___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 09 - DRG NUMBER]" Member="USED_ON_09___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 09 - PREFIX]" Member="USED_ON_09___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 10 - DRG NUMBER]" Member="USED_ON_10___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 10 - PREFIX]" Member="USED_ON_10___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 11 - DRG NUMBER]" Member="USED_ON_11___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 11 - PREFIX]" Member="USED_ON_11___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 12 - DRG NUMBER]" Member="USED_ON_12___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 12 - PREFIX]" Member="USED_ON_12___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 13 - DRG NUMBER]" Member="USED_ON_13___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 13 - PREFIX]" Member="USED_ON_13___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 14 - DRG NUMBER]" Member="USED_ON_14___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 14 - PREFIX]" Member="USED_ON_14___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 15 - DRG NUMBER]" Member="USED_ON_15___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 15 - PREFIX]" Member="USED_ON_15___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 16 - DRG NUMBER]" Member="USED_ON_16___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 16 - PREFIX]" Member="USED_ON_16___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 17 - DRG NUMBER]" Member="USED_ON_17___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 17 - PREFIX]" Member="USED_ON_17___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 18 - DRG NUMBER]" Member="USED_ON_18___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 18 - PREFIX]" Member="USED_ON_18___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 19 - DRG NUMBER]" Member="USED_ON_19___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 19 - PREFIX]" Member="USED_ON_19___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 20 - DRG NUMBER]" Member="USED_ON_20___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 20 - PREFIX]" Member="USED_ON_20___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 21 - DRG NUMBER]" Member="USED_ON_21___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 21 - PREFIX]" Member="USED_ON_21___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 22 - DRG NUMBER]" Member="USED_ON_22___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 22 - PREFIX]" Member="USED_ON_22___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 23 - DRG NUMBER]" Member="USED_ON_23___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 23 - PREFIX]" Member="USED_ON_23___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 24 - DRG NUMBER]" Member="USED_ON_24___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 24 - PREFIX]" Member="USED_ON_24___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 25 - DRG NUMBER]" Member="USED_ON_25___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 25 - PREFIX]" Member="USED_ON_25___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 26 - DRG NUMBER]" Member="USED_ON_26___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 26 - PREFIX]" Member="USED_ON_26___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 27 - DRG NUMBER]" Member="USED_ON_27___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 27 - PREFIX]" Member="USED_ON_27___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 28 - DRG NUMBER]" Member="USED_ON_28___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 28 - PREFIX]" Member="USED_ON_28___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 29 - DRG NUMBER]" Member="USED_ON_29___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 29 - PREFIX]" Member="USED_ON_29___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 30 - DRG NUMBER]" Member="USED_ON_30___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 30 - PREFIX]" Member="USED_ON_30___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 31 - DRG NUMBER]" Member="USED_ON_31___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 31 - PREFIX]" Member="USED_ON_31___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 32 - DRG NUMBER]" Member="USED_ON_32___DRG_NUMBER" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[USED ON 32 - PREFIX]" Member="USED_ON_32___PREFIX" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="DATETIME" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DLDETAILS" Member="DLDETAILs">
+    <Type Name="DLDETAIL">
+      <Column Name="[INDEX]" Member="INDEX" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="[ASSEMBLY]" Member="ASSEMBLY" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="DLNUMBER" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="DRAWINGNUMBER" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="PM" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="ISSUE" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+    </Type>
+  </Table>
+</Database>
